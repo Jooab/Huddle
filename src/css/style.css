@@ -1,0 +1,79 @@
+body {
+    background: url(../images/bg-desktop.svg) ;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 35px;
+}
+
+.header a img {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.mockup img {
+    max-width: 600px;
+    margin-right: 40px;
+}
+
+.mockup-info {
+    max-width: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.mockup-info h1,
+.mockup-info button {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.mockup-info button {
+    color: hsl(257, 40%, 49%);
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.mockup-info button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mockup-info p {
+    margin-bottom: 20px;
+}
+
+.mockup-info .social {
+    position: absolute;
+    left: 70%;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.mockup-info .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.mockup-info .social a:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
