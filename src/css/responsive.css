@@ -1,12 +1,12 @@
-@media (min-width:1920px) {
-    .container {
-        justify-content: space-evenly;
-    }
-}
-
 @media (min-width:1080px) {
     body {
         overflow: hidden;
+        height: 75vh;
+    }
+
+    .container {
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -24,17 +24,24 @@
 
 @media (max-width:768px) {
     body {
-        background: url(../images/bg-mobile.svg);
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
         background-color: hsl(257, 40%, 49%);
     }
     
+    .container-mockup {
+        display: block;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .mockup img {
         width: 100%;
+        margin: auto;
     }
 
     .mockup-info {
@@ -42,6 +49,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin: 15px auto;
     }
 
     .mockup-info .social {
@@ -52,6 +60,6 @@
     }
 
     .mockup-info button {
-        padding: 10px 50px;
+        padding: 15px 60px;
     }
 }
