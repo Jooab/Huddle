@@ -45,6 +45,14 @@
         justify-content: center;
     }
 
+    .header img {
+        margin-bottom: 30px;
+    }
+
+    .container-mockup {
+        max-height: 720px;
+    }
+
     .mockup img {
         width: 100%;
         margin: auto;
