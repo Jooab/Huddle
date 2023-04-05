@@ -12,6 +12,7 @@ body {
 
 .header a img {
     width: 150px;
+    margin-bottom: 25px;
 }
 
 .container {
